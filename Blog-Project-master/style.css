@@ -1,0 +1,327 @@
+html 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.landing {
+    background-image: url(header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-top: 15px;
+ 
+}
+
+.slogan {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: 135px;
+    margin-top: 152px;
+}
+
+.yellow {
+    background-color: #f9e42e;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #606161;
+    font-family: 'Open Sans', sans-serif;
+    height: 30px;
+    width: 140px;
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.benefits {
+    background-color: #f0efef;
+    padding-bottom: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #033048;
+    margin-bottom: 15px;
+    margin-left: 75px;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paragraph {
+    color: #606161;
+    margin-left: 75px;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    color: #606161;
+    margin-left: 115px;
+    padding-left: 5px;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: disc;
+}
+
+.quote {
+    background-image: url(testimonial_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-right: 500px;
+    padding-left: 500px
+}
+
+.banner {
+    background-color: #f9e42e;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.blue {
+    background-color: #033048;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    height: 30px;
+    width: 140px;
+    color: white;
+}
+
+.footer {
+    background-color: #121212;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #f9e42e;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 5px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 13px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.logo-pic {
+    margin: 15px;
+}
+
+.copyright {
+    font-size: 9px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.navigation {
+    background-color: #033048;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    flex: 2;
+    margin: 10px;
+    align-self: center;
+    margin-left: -40px;
+    padding-left: 85px;
+}
+
+.links {
+    flex: 1;
+    align-self: center;
+} 
+
+a {
+    color: #f9e42e;
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.blog-body {
+    display: flex;
+    background-color: #f0efef;
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.main-column {
+    max-width: 700px;
+    margin-right: 10px;
+}
+
+.sidebar {
+    max-width: 240px;
+    margin-left: 10px;
+}
+
+.gutter {
+    max-width: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #033048;
+    padding-bottom: 20px;
+}
+
+.blog-text {
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+    color: #606161;
+    padding-bottom: 50px;
+}
+
+img {
+    padding-bottom: 20px;
+}
+
+.more {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #033048;
+    padding-top: 50px;
+    text-align: end;
+    padding-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #033048;
+    font-family: 'Open Sans', sans-serif;
+}
+.categories-text {
+    font-size: 24px;
+    font-weight: 200;
+    color: #121212;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about-text {
+    font-size: 22px;
+    font-weight: 200;
+    color: #121212;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.learn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #033048;
+}
+
+.categories {
+    margin-bottom: 30px;
+}
+
+.about {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.blog-text::first-letter {
+    font-size: 100px;
+    font-weight: 800;
+}
